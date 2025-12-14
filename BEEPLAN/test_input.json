@@ -1,0 +1,579 @@
+{
+  "instructors": [
+    {
+      "name": "B. Avenoglu",
+      "availability": {
+        "MONDAY": ["08:00-12:00", "13:20-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "İ. Bora Çelikkale",
+      "availability": {
+        "MONDAY": ["08:00-12:00", "13:20-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "S. Esmelioglu",
+      "availability": {
+        "MONDAY": ["08:00-12:00", "13:20-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "S.K. Tunç",
+      "availability": {
+        "MONDAY": ["08:00-12:00", "13:20-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "N. Cağıltay",
+      "availability": {
+        "MONDAY": ["08:00-12:00", "13:20-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "T. Karadeniz",
+      "availability": {
+        "MONDAY": ["08:00-12:00", "13:20-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "Serdar Arslan",
+      "availability": {
+        "MONDAY": ["08:00-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "Hayri Sever",
+      "availability": {
+        "MONDAY": ["08:00-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "Atilla Bostan",
+      "availability": {
+        "MONDAY": ["08:00-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "Gül Tokdemir",
+      "availability": {
+        "MONDAY": ["08:00-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "Alper Ateş",
+      "availability": {
+        "MONDAY": ["08:00-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    }
+    ,
+    {
+      "name": "TBA1",
+      "availability": {
+        "MONDAY": ["08:00-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": [],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "TBA2",
+      "availability": {
+        "MONDAY": [],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": [],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "TBA3",
+      "availability": {
+        "MONDAY": ["08:00-12:00"],
+        "TUESDAY": ["08:00-12:00"],
+        "WEDNESDAY": ["08:00-12:00"],
+        "THURSDAY": ["08:00-12:00"],
+        "FRIDAY": ["08:00-12:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "TBA4",
+      "availability": {
+        "MONDAY": ["13:20-17:00"],
+        "TUESDAY": ["13:20-17:00"],
+        "WEDNESDAY": ["13:20-17:00"],
+        "THURSDAY": ["13:20-17:00"],
+        "FRIDAY": ["15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "TBA5",
+      "availability": {
+        "MONDAY": ["10:00-13:00", "15:10-17:00"],
+        "TUESDAY": ["10:00-13:00", "15:10-17:00"],
+        "WEDNESDAY": ["10:00-13:00", "15:10-17:00"],
+        "THURSDAY": ["10:00-13:00", "15:10-17:00"],
+        "FRIDAY": ["10:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "TBA6",
+      "availability": {
+        "MONDAY": ["08:00-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": [],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "TBA7",
+      "availability": {
+        "MONDAY": [],
+        "TUESDAY": [],
+        "WEDNESDAY": [],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "TBA8",
+      "availability": {
+        "MONDAY": ["08:00-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    }
+
+  ],
+
+  "classrooms": [
+    { "name": "A101", "capacity": 80, "is_lab": false, "type": "classroom" },
+    { "name": "A102", "capacity": 60, "is_lab": false, "type": "classroom" },
+    { "name": "A103", "capacity": 50, "is_lab": false, "type": "classroom" },
+    { "name": "LAB1", "capacity": 40, "is_lab": true, "type": "lab" },
+    { "name": "LAB2", "capacity": 40, "is_lab": true, "type": "lab" },
+    { "name": "LAB3", "capacity": 35, "is_lab": true, "type": "lab" }
+  ],
+"courses": [
+  {
+    "code": "PHYS131",
+    "name": "Physics",
+    "year": 1,
+    "semester": 1,
+    "instructor": "TBA1",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": true
+  },
+  {
+    "code": "PHYS131L",
+    "name": "Physics Lab",
+    "year": 1,
+    "semester": 1,
+    "instructor": "TBA1",
+    "type": "lab",
+    "hours_per_week": 2,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "theory_course_code": "PHYS131"
+  },
+  {
+    "code": "ENG121",
+    "name": "Academic English I",
+    "year": 1,
+    "semester": 1,
+    "instructor": "TBA2",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": false
+  },
+  {
+    "code": "MATH157",
+    "name": "Calculus for Engineering I",
+    "year": 1,
+    "semester": 1,
+    "instructor": "TBA3",
+    "type": "theory",
+    "hours_per_week": 4,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": false
+  },
+  {
+    "code": "BIO101",
+    "name": "Introduction to Biology",
+    "year": 1,
+    "semester": 1,
+    "instructor": "TBA4",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": false
+  },
+  {
+    "code": "ESR103",
+    "name": "Ethical Principles and Social Responsibility",
+    "year": 1,
+    "semester": 1,
+    "instructor": "TBA5",
+    "type": "theory",
+    "hours_per_week": 1,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": false
+  },
+  {
+    "code": "SENG101",
+    "name": "Computer Programming I",
+    "year": 1,
+    "semester": 1,
+    "instructor": "S. Esmelioglu",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 70,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": true
+  },
+  {
+    "code": "SENG101L",
+    "name": "Computer Programming I Lab",
+    "year": 1,
+    "semester": 1,
+    "instructor": "S. Esmelioglu",
+    "type": "lab",
+    "hours_per_week": 2,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "theory_course_code": "SENG101"
+  },
+
+  {
+    "code": "HIST201",
+    "name": "Principles of Atatürk and History of Turkish Revolution I",
+    "year": 1,
+    "semester": 2,
+    "instructor": "TBA6",
+    "type": "theory",
+    "hours_per_week": 2,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": false
+  },
+  {
+    "code": "SENG201",
+    "name": "Data Structures",
+    "year": 2,
+    "semester": 2,
+    "instructor": "İ. Bora Çelikkale",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 60,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": true
+  },
+  {
+    "code": "SENG201L",
+    "name": "Data Structures Lab",
+    "year": 2,
+    "semester": 2,
+    "instructor": "İ. Bora Çelikkale",
+    "type": "lab",
+    "hours_per_week": 2,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "theory_course_code": "SENG201"
+  },
+  {
+    "code": "MATH223",
+    "name": "Introduction to Applied Probability and Statistics",
+    "year": 2,
+    "semester": 2,
+    "instructor": "TBA7",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": true
+  },
+  {
+    "code": "MATH223L",
+    "name": "Applied Probability and Statistics Lab",
+    "year": 2,
+    "semester": 2,
+    "instructor": "TBA7",
+    "type": "lab",
+    "hours_per_week": 2,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "theory_course_code": "MATH223"
+  },
+  {
+    "code": "SENG206",
+    "name": "Software Design",
+    "year": 2,
+    "semester": 2,
+    "instructor": "S.K. Tunç",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 65,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": false
+  },
+  {
+    "code": "SENG271",
+    "name": "Software Project I",
+    "year": 2,
+    "semester": 2,
+    "instructor": "TBA8",
+    "type": "lab",
+    "hours_per_week": 2,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "theory_course_code": "SENG206"
+  },
+  {
+    "code": "SENG315",
+    "name": "Concurrent Programming",
+    "year": 3,
+    "semester": 1,
+    "instructor": "B. Avenoglu",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": false
+  },
+  {
+    "code": "SENG303",
+    "name": "Software Testing for Quality Assurance",
+    "year": 3,
+    "semester": 1,
+    "instructor": "S. Esmelioglu",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": false
+  },
+  {
+    "code": "SENG383",
+    "name": "Software Project III",
+    "year": 3,
+    "semester": 1,
+    "instructor": "İ. Bora Çelikkale",
+    "type": "lab",
+    "hours_per_week": 2,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "theory_course_code": "SENG303"
+  },
+  {
+    "code": "SENG301",
+    "name": "Software Project Management",
+    "year": 3,
+    "semester": 1,
+    "instructor": "S.K. Tunç",
+    "type": "theory",
+    "hours_per_week": 2,
+    "enrollment": 45,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": true
+  },
+  {
+    "code": "SENG301L",
+    "name": "Software Project Management Lab",
+    "year": 3,
+    "semester": 1,
+    "instructor": "S.K. Tunç",
+    "type": "lab",
+    "hours_per_week": 2,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": false,
+    "theory_course_code": "SENG301"
+  },
+  {
+    "code": "SENG474",
+    "name": "Human–Computer Interaction",
+    "year": 3,
+    "semester": 2,
+    "instructor": "S.K. Tunç",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 40,
+    "department": "SENG",
+    "is_elective": true,
+    "requires_lab": false
+  },
+
+  {
+    "code": "SENG426",
+    "name": "Formal Methods in Software Development",
+    "year": 4,
+    "semester": 1,
+    "instructor": "İ. Bora Çelikkale",
+    "type": "theory",
+    "hours_per_week": 4,
+    "enrollment": 30,
+    "department": "SENG",
+    "is_elective": false,
+    "requires_lab": false
+  },
+  {
+    "code": "SENG491",
+    "name": "Graduation Project I",
+    "year": 4,
+    "semester": 1,
+    "instructor": "S. Esmelioglu",
+    "type": "lab",
+    "hours_per_week": 4,
+    "enrollment": 36,
+    "department": "SENG",
+    "is_elective": false,
+    "theory_course_code": "SENG426"
+  },
+  {
+    "code": "SENG429",
+    "name": "Enterprise Application Development Laboratory",
+    "year": 4,
+    "semester": 1,
+    "instructor": "B. Avenoglu",
+    "type": "lab",
+    "hours_per_week": 2,
+    "enrollment": 30,
+    "department": "SENG",
+    "is_elective": true,
+    "theory_course_code": "SENG426"
+  },
+  {
+    "code": "SENG465",
+    "name": "Artificial Intelligence in Game Programming",
+    "year": 4,
+    "semester": 1,
+    "instructor": "B. Avenoglu",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 30,
+    "department": "SENG",
+    "is_elective": true,
+    "requires_lab": false
+  },
+  {
+    "code": "SENG449",
+    "name": "Special Topics in Software Engineering",
+    "year": 4,
+    "semester": 1,
+    "instructor": "N. Cağıltay",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 30,
+    "department": "SENG",
+    "is_elective": true,
+    "requires_lab": false
+  },
+  {
+    "code": "SENG445",
+    "name": "Computer Vision",
+    "year": 4,
+    "semester": 1,
+    "instructor": "T. Karadeniz",
+    "type": "theory",
+    "hours_per_week": 3,
+    "enrollment": 30,
+    "department": "SENG",
+    "is_elective": true,
+    "requires_lab": false
+  }
+]
+}

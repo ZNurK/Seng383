@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - BeePlan{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="dashboard-container">
+    <div class="dashboard-header">
+        <h2>Welcome, {{ username }}!</h2>
+        <p>Generate conflict-free course schedules for your department</p>
+    </div>
+    
+    <div class="dashboard-actions">
+        <div class="action-card">
+            <h3>📤 Import Data</h3>
+            <p>Upload your course data (JSON format)</p>
+            <input type="file" id="dataFile" accept=".json" style="display: none;">
+            <button class="btn btn-primary" onclick="document.getElementById('dataFile').click()">
+                Choose File
+            </button>
+            <span id="fileName" class="file-name"></span>
+        </div>
+        
+        <div class="action-card">
+            <h3>⚙️ Generate Schedule</h3>
+            <p>Create a conflict-free schedule</p>
+            <button class="btn btn-success" id="generateBtn" disabled>
+                Generate Schedule
+            </button>
+        </div>
+        
+        <div class="action-card">
+            <h3>📊 View Report</h3>
+            <p>Check validation results</p>
+            <button class="btn btn-info" id="reportBtn" disabled>
+                View Report
+            </button>
+        </div>
+        
+        <div class="action-card">
+            <h3>💾 Export Schedule</h3>
+            <p>Download as JSON or CSV</p>
+            <div class="export-buttons">
+                <button class="btn btn-secondary" id="exportJsonBtn" disabled>
+                    Export JSON
+                </button>
+                <button class="btn btn-secondary" id="exportCsvBtn" disabled>
+                    Export CSV
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="timetable-section" id="timetableSection" style="display: none;">
+        <div class="section-header">
+            <h3>Weekly Timetable</h3>
+            <div class="year-selector">
+                <button class="year-btn active" data-year="1">Year 1</button>
+                <button class="year-btn" data-year="2">Year 2</button>
+                <button class="year-btn" data-year="3">Year 3</button>
+                <button class="year-btn" data-year="4">Year 4</button>
+            </div>
+            <div class="semester-selector">
+                <button class="semester-btn active" data-semester="1">Sem 1</button>
+                <button class="semester-btn" data-semester="2">Sem 2</button>
+                <button class="semester-btn" data-semester="3">Sem 3</button>
+                <button class="semester-btn" data-semester="4">Sem 4</button>
+                <button class="semester-btn" data-semester="5">Sem 5</button>
+                <button class="semester-btn" data-semester="6">Sem 6</button>
+                <button class="semester-btn" data-semester="7">Sem 7</button>
+                <button class="semester-btn" data-semester="8">Sem 8</button>
+            </div>
+        </div>
+        <div class="timetable-container">
+            <div id="timetable"></div>
+        </div>
+    </div>
+    
+    <div class="report-section" id="reportSection" style="display: none;">
+        <div class="section-header">
+            <h3>Validation Report</h3>
+        </div>
+        <div class="report-container" id="reportContent"></div>
+    </div>
+    
+    <div class="loading-overlay" id="loadingOverlay" style="display: none;">
+        <div class="spinner"></div>
+        <p>Processing...</p>
+    </div>
+    
+    <div class="alert-container" id="alertContainer"></div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}
+

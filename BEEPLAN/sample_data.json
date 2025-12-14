@@ -1,0 +1,156 @@
+{
+  "instructors": [
+    {
+      "name": "Dr. Smith",
+      "availability": {
+        "MONDAY": ["08:00-12:00", "15:00-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-12:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "Dr. Johnson",
+      "availability": {
+        "MONDAY": ["08:00-17:00"],
+        "TUESDAY": ["08:00-12:00"],
+        "WEDNESDAY": ["08:00-17:00"],
+        "THURSDAY": ["08:00-12:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    },
+    {
+      "name": "Dr. Williams",
+      "availability": {
+        "MONDAY": ["08:00-17:00"],
+        "TUESDAY": ["08:00-17:00"],
+        "WEDNESDAY": ["08:00-12:00"],
+        "THURSDAY": ["08:00-17:00"],
+        "FRIDAY": ["08:00-13:00", "15:10-17:00"]
+      },
+      "max_hours_per_day": 4
+    }
+  ],
+  "classrooms": [
+    {"name": "A101", "capacity": 50, "is_lab": false, "type": "classroom"},
+    {"name": "A102", "capacity": 50, "is_lab": false, "type": "classroom"},
+    {"name": "A103", "capacity": 45, "is_lab": false, "type": "classroom"},
+    {"name": "B201", "capacity": 40, "is_lab": true, "type": "lab"},
+    {"name": "B202", "capacity": 35, "is_lab": true, "type": "lab"},
+    {"name": "B203", "capacity": 30, "is_lab": true, "type": "lab"}
+  ],
+  "courses": [
+    {
+      "code": "CENG101",
+      "name": "Introduction to Programming",
+      "year": 1,
+      "instructor": "Dr. Smith",
+      "type": "theory",
+      "hours_per_week": 3,
+      "enrollment": 45,
+      "department": "CENG",
+      "is_elective": false,
+      "requires_lab": true
+    },
+    {
+      "code": "CENG101L",
+      "name": "Introduction to Programming Lab",
+      "year": 1,
+      "instructor": "Dr. Smith",
+      "type": "lab",
+      "hours_per_week": 2,
+      "enrollment": 30,
+      "department": "CENG",
+      "is_elective": false,
+      "theory_course_code": "CENG101"
+    },
+    {
+      "code": "CENG102",
+      "name": "Data Structures",
+      "year": 2,
+      "instructor": "Dr. Johnson",
+      "type": "theory",
+      "hours_per_week": 3,
+      "enrollment": 40,
+      "department": "CENG",
+      "is_elective": false,
+      "requires_lab": true
+    },
+    {
+      "code": "CENG102L",
+      "name": "Data Structures Lab",
+      "year": 2,
+      "instructor": "Dr. Johnson",
+      "type": "lab",
+      "hours_per_week": 2,
+      "enrollment": 30,
+      "department": "CENG",
+      "is_elective": false,
+      "theory_course_code": "CENG102"
+    },
+    {
+      "code": "CENG301",
+      "name": "Database Systems",
+      "year": 3,
+      "instructor": "Dr. Williams",
+      "type": "theory",
+      "hours_per_week": 3,
+      "enrollment": 35,
+      "department": "CENG",
+      "is_elective": false,
+      "requires_lab": true
+    },
+    {
+      "code": "CENG301L",
+      "name": "Database Systems Lab",
+      "year": 3,
+      "instructor": "Dr. Williams",
+      "type": "lab",
+      "hours_per_week": 2,
+      "enrollment": 30,
+      "department": "CENG",
+      "is_elective": false,
+      "theory_course_code": "CENG301"
+    },
+    {
+      "code": "CENG401",
+      "name": "Software Engineering",
+      "year": 4,
+      "instructor": "Dr. Smith",
+      "type": "theory",
+      "hours_per_week": 3,
+      "enrollment": 30,
+      "department": "CENG",
+      "is_elective": false,
+      "requires_lab": false
+    },
+    {
+      "code": "CENG_E1",
+      "name": "Machine Learning",
+      "year": 4,
+      "instructor": "Dr. Johnson",
+      "type": "theory",
+      "hours_per_week": 3,
+      "enrollment": 25,
+      "department": "CENG",
+      "is_elective": true,
+      "requires_lab": false
+    },
+    {
+      "code": "SENG_E1",
+      "name": "Cloud Computing",
+      "year": 4,
+      "instructor": "Dr. Williams",
+      "type": "theory",
+      "hours_per_week": 3,
+      "enrollment": 25,
+      "department": "SENG",
+      "is_elective": true,
+      "requires_lab": false
+    }
+  ]
+}
+
