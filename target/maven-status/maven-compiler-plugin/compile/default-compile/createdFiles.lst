@@ -1,0 +1,14 @@
+com\taskmanager\Application.class
+com\taskmanager\model\Adult.class
+com\taskmanager\service\TaskWishService.class
+com\taskmanager\model\Wish.class
+com\taskmanager\controller\StatusController.class
+com\taskmanager\controller\TaskController.class
+com\taskmanager\service\Operations.class
+com\taskmanager\controller\WishController.class
+com\taskmanager\config\WebConfig.class
+com\taskmanager\model\Parent.class
+com\taskmanager\model\Child.class
+com\taskmanager\model\Teacher.class
+com\taskmanager\config\JacksonConfig.class
+com\taskmanager\model\Task.class
