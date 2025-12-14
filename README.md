@@ -1,111 +1,112 @@
-<<<<<<< HEAD
-# Seng383
-=======
-# Görev ve Dilek Yönetim Sistemi
+# Task and Wish Management System
 
-Bu proje, çocuklar için görev ve dilek yönetim sistemidir. GUI formatından web formatına dönüştürülmüştür.
+This project is a task and wish management system designed for children.  
+It has been converted from a GUI-based application into a web-based system.
 
-## Özellikler
+## Features
 
-- ✅ Görev ekleme (Öğretmen/Veli tarafından)
-- ✅ Görev tamamlama
-- ✅ Görev değerlendirme ve coin ödülü
-- ✅ Dilek ekleme
-- ✅ Dilek onaylama/reddetme
-- ✅ Seviye şartlı (ör. Level 3) otomatik dilek onayı planlama
-- ✅ Günlük ve haftalık görev listeleme
-- ✅ Bütçe (coin) ve seviye takibi
+- Task creation (by Teacher or Parent)
+- Task completion
+- Task evaluation and coin rewards
+- Wish creation
+- Wish approval and rejection
+- Automatic wish approval based on level requirements (e.g., Level 3)
+- Daily and weekly task listing
+- Coin budget and level tracking
 
-## Gereksinimler
+## Requirements
 
-- Java 17 veya üzeri
-- Maven 3.6 veya üzeri
+- Java 17 or higher
+- Maven 3.6 or higher
 
-## Kurulum ve Çalıştırma
+## Installation and Running
 
-### 1. Projeyi Klonlayın veya İndirin
+### 1. Clone or Download the Project
 
-### 2. Maven ile Bağımlılıkları İndirin
+### 2. Install Dependencies with Maven
 
 ```bash
 mvn clean install
-```
 
-### 3. Uygulamayı Çalıştırın
-
-```bash
+3. Run the Application
 mvn spring-boot:run
-```
 
-veya
 
-```bash
+or
+
 java -jar target/task-wish-manager-1.0.0.jar
-```
 
-### 4. Web Arayüzüne Erişin
 
-Tarayıcınızda şu adrese gidin:
-```
+4. Access the Web Interface
+
+Open your browser and go to:
+
 http://localhost:8080
-```
 
-## Kullanım
 
-1. **Görevler Sekmesi**: Tüm görevleri görüntüleyin, tamamlayın ve değerlendirin
-2. **Dilekler Sekmesi**: Tüm dilekleri görüntüleyin ve onaylayın/reddedin
-3. **Görev Ekle Sekmesi**: Yeni görev ekleyin
-4. **Dilek Ekle Sekmesi**: Yeni dilek ekleyin
+Usage
 
-## API Endpoints
+Tasks Tab – View, complete, and evaluate tasks
 
-### Görevler
-- `GET /api/tasks/all` - Tüm görevleri listele
-- `GET /api/tasks/daily` - Günlük görevleri listele
-- `GET /api/tasks/weekly` - Haftalık görevleri listele
-- `POST /api/tasks/add` - Yeni görev ekle
-- `POST /api/tasks/{taskId}/complete` - Görevi tamamla
-- `POST /api/tasks/{taskId}/check` - Görevi değerlendir
+Wishes Tab – View and approve or reject wishes
 
-### Dilekler
-- `GET /api/wishes/all` - Tüm dilekleri listele
-- `POST /api/wishes/add` - Yeni dilek ekle
-- `POST /api/wishes/{wishId}/check` - Dileği onayla/reddet
+Add Task Tab – Create new tasks
 
-### Durum
-- `GET /api/status/budget` - Bütçeyi görüntüle
-- `GET /api/status/level` - Seviyeyi görüntüle
-- `POST /api/status/add-coin` - Coin ekle
+Add Wish Tab – Create new wishes
 
-## Proje Yapısı
+API Endpoints
+Tasks
 
-```
+GET /api/tasks/all – List all tasks
+
+GET /api/tasks/daily – List daily tasks
+
+GET /api/tasks/weekly – List weekly tasks
+
+POST /api/tasks/add – Add a new task
+
+POST /api/tasks/{taskId}/complete – Complete a task
+
+POST /api/tasks/{taskId}/check – Evaluate a task
+
+Wishes
+
+GET /api/wishes/all – List all wishes
+
+POST /api/wishes/add – Add a new wish
+
+POST /api/wishes/{wishId}/check – Approve or reject a wish
+
+Status
+
+GET /api/status/budget – View budget
+
+GET /api/status/level – View level
+
+POST /api/status/add-coin – Add coins
+
 src/
 ├── main/
 │   ├── java/
 │   │   └── com/taskmanager/
-│   │       ├── Application.java          # Spring Boot ana sınıf
-│   │       ├── config/                   # Yapılandırma sınıfları
-│   │       ├── controller/               # REST API controller'ları
-│   │       ├── model/                    # Veri modeli sınıfları
-│   │       └── service/                  # İş mantığı servisleri
+│   │       ├── Application.java
+│   │       ├── config/
+│   │       ├── controller/
+│   │       ├── model/
+│   │       └── service/
 │   └── resources/
-│       ├── static/                       # Frontend dosyaları
+│       ├── static/
 │       │   ├── index.html
-│       │   ├── style.css
-│       │   └── app.js
-│       └── application.properties        # Uygulama yapılandırması
-└── pom.xml                               # Maven yapılandırması
-```
+│   │   ├── style.css
+│   │   └── app.js
+│       └── application.properties
+└── pom.xml
 
-## Notlar
 
-- Uygulama başlatıldığında `Tasks.txt` ve `Wishes.txt` dosyalarından veri yüklenir (varsa)
-- Tüm veriler hafızada tutulur ve dosyalara otomatik olarak kaydedilir
-- CORS tüm kaynaklara açıktır (geliştirme için)
+Notes
 
-## Lisans
+On application startup, data is loaded from Tasks.txt and Wishes.txt if available
 
-Bu proje eğitim amaçlıdır.
+All data is stored in memory and automatically written back to files
 
->>>>>>> 5d88c27 (Initial commit)
+CORS is enabled for all origins (development purposes)
